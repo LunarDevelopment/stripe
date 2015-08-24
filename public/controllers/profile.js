@@ -60,6 +60,12 @@ angular.module('MyApp')
             type: 'material',
             duration: 3
           });
+          $alert({
+            content: 'If this should be working, try refreshing your page?',
+            animation: 'fadeZoomFadeDown',
+            type: 'material',
+            duration: 3
+          });
         });
     };
 
